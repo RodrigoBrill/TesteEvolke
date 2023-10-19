@@ -1,0 +1,16 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "robmorgan/phinx": "^0.14.0",
+        "coffeecode/router": "1.0.8",
+        "coffeecode/datalayer": "1.1.8",
+        "league/plates": "v4.0.0-alpha"
+    }
+}
